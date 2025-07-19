@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PvZ .SO Editor Tool by SaMeiers</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>PvZ .SO Editor Tool</h1>
+            <p>Una herramienta para modificar Plants vs Zombies Android</p>
+        </header>
+
+        <div class="disclaimer">
+            <h3>Descargo de responsabilidad</h3>
+            <p>Esta herramienta no está afiliada con PopCap Games o Electronic Arts. Es un proyecto creado por fans para fans.</p>
+        </div>
+
+        <div class="file-input-container">
+            <label for="file-input" class="file-input-label">Seleccionar libpvz.so</label>
+            <input type="file" id="file-input" accept=".so">
+            <div class="file-info" id="file-info">No se ha seleccionado ningún archivo</div>
+        </div>
+
+        <div class="tab-container">
+            <div class="tab-buttons">
+                <button class="tab-button active" data-tab="plants">Plantas</button>
+                <button class="tab-button" data-tab="zombies">Zombies</button>
+                <button class="tab-button" data-tab="gameplay">Gameplay</button>
+                <button class="tab-button" data-tab="minigames">Minijuegos</button>
+            </div>
+
+           
+            <div id="plants" class="tab-content active"></div>
+            <div id="zombies" class="tab-content"></div>
+            <div id="gameplay" class="tab-content"></div>
+            <div id="minigames" class="tab-content"></div>
+        </div>
+
+        <div class="buttons">
+            <button id="apply-btn">Aplicar Cambios</button>
+            <button id="reset-btn">Restablecer Valores</button>
+            <button id="download-btn">Descargar libpvz.so Modificado</button>
+        </div>
+
+        <div class="credits">
+            <h2>Créditos y Agradecimientos</h2>
+            <div class="credits-grid">
+                <div class="credit-card">
+                    <h3>Creador</h3>
+                    <p>SaMeiers</p>
+                </div>
+                <div class="credit-card">
+                    <h3>Investigadores</h3>
+                    <p>SikuChan, Geovepet234, Super</p>
+                </div>
+                <div class="credit-card">
+                    <h3>Contacto</h3>
+                    <p>sameierscontacto@gmail.com</p>
+                </div>
+                <div class="credit-card">
+                    <h3>Canal de YouTube</h3>
+                    <p><a href="https://youtube.com/@sameiersoficial?si=cyLBI58StL7MfeCd" id="youtube-link" target="_blank">Visitar canal</a></p>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>PvZ .SO Editor Tool &copy; 2025 - SaMeiers</p>
+            <p>Esta herramienta es gratuita y de código abierto. ¡Comparte el conocimiento!</p>
+        </footer>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
