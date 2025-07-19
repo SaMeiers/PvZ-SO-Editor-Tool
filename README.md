@@ -18,8 +18,8 @@
 
 ### Ejecución local:  
 ```bash  
-git clone https://github.com/tu-usuario/tu-repo.git  
-cd tu-repo  
+git clone https://github.com/SaMeiers/PvZ-SO-Editor-Tool  
+cd PvZ-SO-Editor-Tool
 python3 -m http.server 8000  
 ```  
 Abre `http://localhost:8000` en tu navegador.  
