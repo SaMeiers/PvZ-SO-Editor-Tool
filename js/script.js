@@ -63,7 +63,7 @@ function setupUI() {
     ]);
 
     generateTabContent('gameplay', modData.gameplay, [
-        { title: 'Otras Configuraciones', key: 'settings' }
+        { title: 'Animaciones', key: 'animations' }
     ]);
 
     generateMinigamesTab();
